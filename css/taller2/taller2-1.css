@@ -5,14 +5,14 @@
 }
 
 body {
-    background-image: url(/img/img2/pag1/texturaBackground.jpg);
+    background-image: url(./img/img2/pag1/texturaBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .cabecera {
     color: wheat;
-    background-image: url(/img/img2/pag1/texturaMalla.jpg);
+    background-image: url(./img/img2/pag1/texturaMalla.jpg);
     width: 100%;
     height: 4rem;
 }
@@ -31,7 +31,7 @@ body {
 section {
     margin-left: 20px;
     margin-top: 20px;
-    background-image: url(/img/img2/pag1/texturaMarmol.jpg);
+    background-image: url(./img/img2/pag1/texturaMarmol.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 30%;
@@ -56,7 +56,7 @@ section {
 }
 
 main {
-    background-image: url(/img/img2/pag1/textura1.jpg);
+    background-image: url(./img/img2/pag1/textura1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 60%;
@@ -82,7 +82,7 @@ main {
 }
 
 footer {
-    background-image: url(/img/img2/pag1/marmolBlack.png);
+    background-image: url(./img/img2/pag1/marmolBlack.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 60%;
