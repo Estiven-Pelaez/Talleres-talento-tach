@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vh;
+    height: 959px;
+    background: radial-gradient(circle at top, rgb(17, 0, 112) 20%, rgb(0, 0, 0) 80%);   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentacion {
+    padding-inline: 0;
+    width: 84rem;
+    color: azure;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.presentacion b {
+    color: red;
+}
+
+main {
+    margin-left: 390px;
+    width: 500px;
+    height: 100px;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+.grilla img {
+    object-fit: cover;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+}
+
+.grid0 {
+    align-self: center;
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.grid1 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    place-items: end;
+}
+
+.grid2 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-items: center;    
+}
+
+.grid3 {
+    display: grid;
+    place-items: start end;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+
+.grid4 {
+    display: grid;
+    place-items: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.grid5 {
+    display: grid;
+    place-items: start;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
+
+.grid6 {
+    display: grid;
+    place-items: center end;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.grid7 {
+    display: grid;
+    align-items: end;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.grid0 button{
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.448);
+}
+
+.grid1 a{
+    box-shadow: -5px 4px 6px rgba(255, 255, 255, 0.448);
+}
+
+.grid2 button {
+    box-shadow: -5px 4px 6px rgba(255, 255, 255, 0.448);
+}
+
+.grid3 a{
+    box-shadow: -5px 4px 6px rgba(255, 255, 255, 0.448);
+}
+
+.grid4 a{
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.448);
+}
+
+.grid5 a{
+    box-shadow: 5px 4px 6px rgba(255, 255, 255, 0.448);
+}
+
+.grid6 button{
+    box-shadow: 5px 4px 6px rgba(255, 255, 255, 0.448);
+}
+
+.grid7 button{
+    box-shadow: 5px 4px 6px rgba(255, 255, 255, 0.448);
+}

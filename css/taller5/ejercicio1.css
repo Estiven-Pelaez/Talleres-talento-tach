@@ -1,0 +1,26 @@
+.ejercicio1 header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+
+.ejercicio1 h1 {
+    background-color: rgb(94, 175, 246);
+    padding: 20px;
+    color: rgb(34, 34, 33);
+}
+
+.ejercicio1 nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.ejercicio1 nav a:hover {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(94, 175, 246);
+}
+.ejercicio1 nav a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(34, 34, 33);
+    background-color: rgb(175, 201, 223);
+}

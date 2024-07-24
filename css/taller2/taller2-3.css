@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: aquamarine;
+    height: 50px;
+    background: radial-gradient(rgb(112, 110, 110), rgb(129, 123, 123), rgb(27, 27, 27));
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 10px;
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+    color: orange;
+    font-size: 1.10rem;
+}
+
+main {
+    background: linear-gradient( rgb(72, 187, 181), rgb(4, 73, 70));
+    margin-left: 1rem;
+    width: 65%;
+    height: 550px;
+    padding: 2rem;
+    position: absolute;
+}
+h1 {
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 2rem;
+}
+main img {
+    width: 25%;
+    float: right;
+}
+main p {
+    font-size: 1.30rem;
+}
+
+aside {
+    margin-left: 68%;
+    margin-right: 1rem;
+    height: 550px;
+    background: linear-gradient(rgb(241, 167, 7), rgb(66, 46, 1));
+    padding: 2rem;
+}
+h3 {
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 1.75rem;
+}
+form {
+    padding-top: 50px;
+    font-family:sans-serif;
+    font-size: 1rem;
+}
+
+footer {
+    background: repeating-linear-gradient(to right, rgb(230, 59, 7) 10%, rgb(75, 13, 2) 20%);
+    height: 79px;
+}
+footer p {
+    text-align: center;
+    padding-top: 18px;
+    color: aliceblue;
+    font-family:sans-serif;
+    font-size: 1rem;
+}

@@ -1,0 +1,100 @@
+.ejercicio9 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ejercicio9 header {
+    padding: 20px;
+    background-color: rgb(80, 80, 80);
+    margin-top: 20px;
+    color: rgb(255, 174, 0);
+}
+
+.contenedorCuadricula {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 20px;
+    gap: 3px;
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+.cuadricula1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: gray;
+}
+.cuadricula2 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    background-color: gray;
+}
+.cuadricula3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: gray;
+}
+.cuadricula4 {
+    grid-column: 6/7;
+    grid-row: 2/3;
+    background-color: gray;
+}
+.cuadricula5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: gray;
+}
+.cuadricula6 {
+    grid-column: 6/7;
+    grid-row: 3/4;
+    background-color: gray;
+}
+.cuadricula7 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: gray;
+}
+.cuadricula8 {
+    grid-column: 2/6;
+    grid-row: 1/5;
+    background-color: gray;
+}
+.cuadricula9 {
+    grid-column: 6/7;
+    grid-row: 4/5;
+    background-color: gray;
+}
+.cuadricula10 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-color: gray;
+}
+.cuadricula11 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    background-color: gray;
+}
+.cuadricula12 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    background-color: gray;
+}
+.cuadricula13 {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background-color: gray;
+}
+.cuadricula14 {
+    grid-column: 5/6;
+    grid-row: 5/6;
+    background-color: gray;
+}
+.cuadricula14 {
+    grid-column: 5/6;
+    grid-row: 5/6;
+    background-color: gray;
+}
+.cuadricula15 {
+    grid-column: 6/7;
+    grid-row: 5/6;
+    background-color: gray;
+}

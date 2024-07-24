@@ -1,0 +1,33 @@
+.container div {
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+.boxCaja1 {
+    background: linear-gradient(red, yellow);
+    border-radius: 100%;
+}
+.boxCaja2 {
+    background: linear-gradient(to right, blue, rgb(140, 0, 255));
+}
+.boxCaja3 {
+    background: linear-gradient(to bottom right, green, black );
+}
+.boxCaja4 {
+    background: linear-gradient(-45deg, gray, orange);
+}
+.boxCaja5 {
+    background: linear-gradient(pink, rgb(187, 87, 104),rgb(143, 7, 29, rgb(90, 1, 16)));
+}
+.boxCaja6 {
+    background: linear-gradient(to right,rgba(55, 138, 127,0.5), rgba(0, 255, 234,1));
+}
+.boxCaja7 {
+    background: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+.boxCaja8 {
+    background: radial-gradient(red, yellow, green);
+}
+.boxCaja9 {
+    background: radial-gradient(red 5%, yellow 15%, green 60%);
+}

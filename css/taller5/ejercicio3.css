@@ -1,0 +1,35 @@
+.ejercicio3 header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+
+.ejercicio3 nav {
+    background-color: rgb(110, 230, 126);
+    overflow: hidden;
+}
+.ejercicio3  a:hover {
+    cursor: pointer;
+    background-color: rgb(2, 255, 10);
+    color: rgb(58, 59, 60);
+}
+.ejercicio3 nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(34, 34, 33);
+    background-color: rgb(15, 175, 36);
+}
+
+.ejercicio3 .containerGrid {
+    background-color: rgb(160, 252, 252);
+    padding: 10px;
+    height: 150px;
+}
+
+.ejercicio3 .footer {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(123, 252, 11);
+}

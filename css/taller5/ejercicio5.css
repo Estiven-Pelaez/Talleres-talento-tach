@@ -1,0 +1,36 @@
+.ejercicio5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(255, 0, 255);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 20px;
+}
+.ejercicio5 h1 {
+    padding: 20px;
+}
+
+.ejercicio5 nav a{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    grid-column: 1/2;
+    padding: 15px;
+
+}
+.ejercicio5 nav a:hover{
+    color: rgb(229, 206, 255);
+    background-color: rgb(119, 0, 255);
+}
+.ejercicio5 nav {
+    padding-top: 30px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    background-color: rgb(255, 97, 255);
+
+}
